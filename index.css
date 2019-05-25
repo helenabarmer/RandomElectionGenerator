@@ -41,7 +41,7 @@ body{
   div{
       text-align: center;
   }
-  
+
   button{
       text-align: center;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -60,4 +60,14 @@ body{
       h1{
       font-size: 200%;
     }
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    #container{
+      width: 90%;
+      }
+        h1{
+        font-size: 200%;
+      }
+    
   }
